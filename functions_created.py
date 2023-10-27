@@ -1,6 +1,6 @@
 def is_two(input_value):
     return input_value == 2 or input_value == "2" or input_value == 2.0 # checks to see if the input value is the number to or the string 2 or the float 2.0
-is_two(2.0)
+#is_two(2.0)
 
 
 
@@ -9,7 +9,7 @@ is_two(2.0)
 def is_vowel(char):
     # checks if char matches any of these string vowels
     return char == 'A' or char == 'a' or char == 'E' or char == 'e' or char == 'I' or char == 'i' or char == 'O' or char == 'o' or char == 'U' or char == 'u'
-is_vowel('a')
+#is_vowel('a')
 
 
 
@@ -17,7 +17,7 @@ is_vowel('a')
 
 def is_consonant(char):
     return char.isalpha() and not is_vowel(char) #ensures character is aplhabetic and is not a vowel
-print(is_consonant('B'))
+#print(is_consonant('B'))
 
 
 
